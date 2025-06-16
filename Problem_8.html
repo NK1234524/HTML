@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem8</title>
+</head>
+<body>
+  <form action="/action.php">  
+    <div>
+        <label for="Name">
+            Name:
+            <input type="text" placeholder="Name" id="Name" name="Name">
+        </label>
+    </div> 
+    <br> 
+    <div>
+        Sex:
+        <label for="Male">
+            Male
+            <input type="radio" id="Male" name="gender" value="Male">            
+        </label>
+        <label for="Female">
+            Female
+            <input type="radio" id="Female" name="gender" value="Female">            
+        </label>
+    </div> 
+    <br>
+    <div>
+        Country:
+        <label for="Country">
+           <select name="Country" id="Country">
+             <option value="Select the option">Select the option</option>
+             <option value="China">China</option>
+             <option value="United states of america">USA</option>
+             <option value="Russia">Russia</option>
+          </select>
+        </label>
+    </div> 
+    <br>
+    Message:
+    <div>        
+        <label for="text">
+            <textarea placeholder="Enter the text" rows="10" cols="50" name="Text" id="text"></textarea>
+        </label>        
+    </div>
+    <br>
+    <div>
+        <label for="Subscribe">
+             <input type="checkbox" name="Subscribe" id="Subscribe">
+              Subscribe?
+        </label>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>

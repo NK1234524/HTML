@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>    
+    <input type="submit" value="clickme">
+    <input type="reset" value="reset">
+
+    <form action="/Pic.jpg">
+        <div>
+           <label for="username">
+            Enter your username:                   
+           <input type="text" id="username" placeholder="Username" name="username"/>
+           </label>                
+        </div>
+
+        <div>
+           <label for="Password">
+           Enter your Password:
+           <input type="password" id="Password" placeholder="Password" name="pass"> 
+           </label>      
+        </div>
+
+        <div>
+            <label for="Time">    
+            Enter your Time:
+            <input type="time" id="Time" placeholder="Time" name="Time">
+            </label>
+        </div>  
+
+        <div>
+            <label for="Color">
+            Enter your Color:
+            <input type="color" id="Color" placeholder="color" name="Color">
+            </label>
+        </div>
+        <div>     
+            <label for="age">
+            Enter your age:
+            <input type="number" id="age" placeholder="AGE" name="age">
+            </label>
+        </div>
+        
+        
+        <button type="submit">Submit</button>
+        <button type="button">Click me!!</button>
+        <button type="reset">Reset all info</button>
+    </form>   
+    <hr>
+    <form action="https://www.youtube.com/results?search_query">
+        <input type="text" id="search" placeholder="Search" name="search_query">
+        <button type="submit">Submit</button>           
+    </form> 
+
+    <form action="/Fruit menu.png">
+        <label for="ag">
+            I am 18+ age
+            <input type="checkbox" id="ag" name="age"/>
+            <button>submit</button>
+            <hr>
+            <h5>Select the fruit &#127795 from below</h5>
+            <div>
+                <label for="Mango">
+                    Mango
+                    <input type="radio" id="Mango" name="Fruit" value="Mango"/>
+                </label>
+            </div>
+            <div>
+                <label for="Apple">
+                    Apple
+                    <input type="radio" id="Apple" name="Fruit" value="Apple"/>
+                </label>
+            </div>
+            <div>
+                <label for="Pineapple">
+                    Pineapple
+                    <input type="radio" id="Pineapple" name="Fruit" value="Pineapple"/>
+                </label>
+            </div>
+        </label>
+    </form>
+    <hr>
+    <form action="/action.php">
+        <div>
+            <label for="Maths">Maths
+                <input type="checkbox" id="Maths" name="Subject" value="Maths">
+            </label>
+        </div>
+        <div>
+            <label for="Science">Science
+                <input type="checkbox" id="Science" name="Subject" value="Science">
+            </label>
+        </div>
+        <div>
+            <label for="English">Maths
+                <input type="checkbox" id="English" name="Subject" value="English">
+            </label>
+        </div>
+        <button type="submit">Submit</button>        
+    </form>
+    <hr>
+    <form action="/action.php">
+        <div> 
+            Choose your profession here:
+            <select name="Profession" id="Profession">
+                <option value="Select" selected>Select the option</option>
+                <option value="Computer technology" >Computer technology</option>
+                <option value="developer" >Web developer</option>
+            </select>
+        </div>
+        <button type="submit">SUBMIT</button>
+    </form>
+    <hr>
+    <form action="/action.php">
+        <div>
+            <label for="vol" >
+                Select the volume from here:
+                <input type="range" id="vol" min="0" max="100" step ="5" name="vol" value="40">
+            </label>
+        </div>
+        <button type="submit">Click here!!</button>
+        <div>
+        <label for="feedback">
+            Enter your feedback here:
+            <br>
+        <textarea id="feedback" placeholder="FEEDBACK" name="feedback" rows="10" cols="50"></textarea>
+    </label>
+</div>
+    </form>
+</body>
+</html>
